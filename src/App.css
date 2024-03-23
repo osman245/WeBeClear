@@ -202,6 +202,9 @@ nav {
 }
 .footer-logo-container {
   max-width: 110px;
+  color: orange;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .footer-icons {
   margin-top: 2.5rem;
@@ -322,6 +325,8 @@ nav {
 @media (max-width: 800px) {
   .nav-logo-container {
     max-width: 140px;
+    color:orange;
+
   }
   .navbar-links-container {
     display: none;
@@ -425,4 +430,10 @@ nav {
   .about-background-image-container {
     display: none;
   }
+}
+
+.nav-logo-container {
+  max-width: 300px;
+  color:orange;
+
 }

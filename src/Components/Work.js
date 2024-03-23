@@ -1,24 +1,24 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import Meeting from "../Assets/consulting.png";
+import SecondMeeting from "../Assets/choose-image.png";
+import Delivery from "../Assets/delivery-image.png";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: Meeting,
+      title: "Meeting",
+      text: "Free consulting meeting were we go through different templates and ideas",
     },
     {
-      image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: SecondMeeting,
+      title: "Choose",
+      text: "Free second consulting you are certain at what template you want",
     },
     {
-      image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: Delivery,
+      title: "Product",
+      text: "Product will be built and made within 3 days to a week",
     },
   ];
   return (
@@ -27,8 +27,7 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          We go through a three stage process on how we conduct our business
         </p>
       </div>
       <div className="work-section-bottom">
